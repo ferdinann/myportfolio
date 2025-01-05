@@ -116,8 +116,8 @@ const StatCard = memo(({ icon: Icon, color, value, label, description, animation
 const AboutPage = () => {
   // Memoized calculations
   const { totalProjects, totalCertificates, YearExperience } = useMemo(() => {
-    const storedProjects = 6;
-    const storedCertificates = 14;
+    const storedProjects = 7;
+    const storedCertificates = 18;
     
     const startDate = new Date("2022-09-20");
     const today = new Date();

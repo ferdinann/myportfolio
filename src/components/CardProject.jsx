@@ -35,13 +35,13 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id, Tect_stac
           alt={Title}
           className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
         />
-        <p className="text-gray-700 justify-center">{Description}</p>
+        <p className="text-gray-700 justify-center text-sm">{Description}</p>
         <p className="text-xl font-bold mb-4 mt-4 item-center">Tech Stack</p>
-        <p className="text-gray-700 justify-center">{Tect_stack}</p>
+        <p className="text-gray-700 justify-center text-sm">{Tect_stack}</p>
         <p className="text-xl font-bold mb-4 mt-4 item-center">Fitur</p>
-        <p className="text-gray-700 justify-center">{Fitur[0]}</p>
-        <p className="text-gray-700 justify-center">{Fitur[1]}</p>
-        <p className="text-gray-700 justify-center">{Fitur[2]}</p>
+        <p className="text-gray-700 justify-center text-sm">{Fitur[0]}</p>
+        <p className="text-gray-700 justify-center text-sm">{Fitur[1]}</p>
+        <p className="text-gray-700 justify-center text-sm">{Fitur[2]}</p>
         <button
           onClick={closeModal}
           className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"

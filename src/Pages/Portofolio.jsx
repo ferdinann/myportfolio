@@ -32,7 +32,13 @@ import dsh from "../assets/dsh.png";
 import ass from "../assets/as.png";
 import analisis from "../assets/analisis.png";
 import studypath from "../assets/studypath.png";
-import lt from "../assets/lt.png"
+import lt from "../assets/lt.png";
+import stdsh from "../assets/stdsh.png";
+import dse from "../assets/dse.png";
+import hw from "../assets/hw.png";
+import msib from "../assets/msib.png";
+import rha from "../assets/rha.png";
+
 
 const projectsData = [
   {
@@ -48,7 +54,7 @@ const projectsData = [
     id: 2,
     Img: ass,
     Title: "Analisis Sentimen Meta AI",
-    Description: "Analisis Sentimen Meta AI adalah sebuah project analisis sentimen umum untuk melihat seberapa baik Meta Ai di terima di indonesia",
+    Description: "Analisis Sentimen Meta AI adalah sebuah project analisis sentimen umum(positif, negatif, netral) untuk melihat seberapa baik Meta Ai di terima di indonesia",
     Link: "https://colab.research.google.com/drive/1rIJ3HXg4mcphpzsP7IbC4Z2azAkh4HAF?usp=sharing",
     Tect_stack: "NLP, Matplotlib, TextBlob, Pandas, Numpy",
     Fitur:["Sentiment umum", "Data Translate"]
@@ -89,64 +95,89 @@ const projectsData = [
     Tect_stack: "SQL",
     Fitur:["Fungsi Search","Triger","Prosedur"]
   },
+  {
+    id: 7,
+    Img: stdsh,
+    Title: " Dashboard Proyek analisis data dengan Streamlit",
+    Description: "Dashboard Proyek analisis data dengan Streamlit adalah sebuah dashboard yang menampilkan data analisis data dengan menggunakan streamlit sebagai frameworknya.",
+    Link: "https://latihan-68aw5vksefumj2n7xjxzuk.streamlit.app/",
+    Tect_stack: "Python, Streamlit, Pandas, Matplotlib",
+    Fitur:["Bar chart permintaan customer","Pie chart kelompok pengguna"]
+  },
 ];
 
 const certificatesData = [
   {
     id: 1,
-    Img: sql,
+    Img: msib,
   },
   {
     id: 2,
-    Img: vsdata,
+    Img: rha,
   },
   {
     id: 3,
-    Img: pengembangsoftware,
+    Img: dse,
   },
   {
     id: 4,
-    Img: logicprg,
+    Img: sql,
   },
   {
     id: 5,
-    Img: jsbasic,
+    Img: vsdata,
   },
   {
     id: 6,
-    Img: github,
+    Img: pengembangsoftware,
   },
   {
     id: 7,
-    Img: flutterbasic,
+    Img: logicprg,
   },
   {
     id: 8,
-    Img: datawpy,
+    Img: jsbasic,
   },
   {
     id: 9,
-    Img: ccp,
+    Img: github,
   },
   {
     id: 10,
-    Img: pyos,
+    Img: flutterbasic,
   },
   {
     id: 11,
-    Img: dlprofesional,
+    Img: datawpy,
   },
   {
     id: 12,
-    Img: mlspesial,
+    Img: ccp,
   },
   {
     id: 13,
-    Img: genai,
+    Img: pyos,
   },
   {
     id: 14,
+    Img: dlprofesional,
+  },
+  {
+    id: 15,
+    Img: mlspesial,
+  },
+  {
+    id: 16,
+    Img: genai,
+  },
+  {
+    id: 17,
     Img: maths,
+  },
+  {
+    id: 18,
+    Img: hw,
   },
   
 ];
@@ -250,6 +281,7 @@ const techStacks = [
   { icon: "nodejs.svg", language: "Node JS" },
   { icon: "bootstrap.svg", language: "Bootstrap" },
   { icon: "flutter.svg", language: "Flutter" },
+  { icon: "st.svg", language: "Streamlit" },
 
 ];
 
