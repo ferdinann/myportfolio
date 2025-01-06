@@ -3,7 +3,7 @@ Halo semuanya!
 Perkenalkan, saya Ferdinanta Ginting, dan pada kesempatan kali ini, saya ingin berbagi proyek website portofolio yang telah saya kembangkan.
 
 Link Website:
-https://www.ferdinan.my.id/
+https://ferdinan.vercel.app/
 
 # Tutorial Menjalankan Project
 
