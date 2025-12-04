@@ -21,7 +21,7 @@ const socialLinks = [
   {
     name: "Instagram",
     displayName: "Instagram",
-    subText: "@ferdinan_ginting28",
+    subText: "@ferdinannginting",
     icon: Instagram,
     url: "https://www.instagram.com/ferdinannginting/?hl=id",
     color: "#E4405F",
