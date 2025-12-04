@@ -23,7 +23,7 @@ const socialLinks = [
     displayName: "Instagram",
     subText: "@ferdinan_ginting28",
     icon: Instagram,
-    url: "https://www.instagram.com/ferdinan__ginting28/?hl=id",
+    url: "https://www.instagram.com/ferdinannginting/?hl=id",
     color: "#E4405F",
     gradient: "from-[#833AB4] via-[#E4405F] to-[#FCAF45]"
   },
