@@ -221,7 +221,7 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="https://mikroskilacid-my.sharepoint.com/:b:/g/personal/221113344_students_mikroskil_ac_id/EWX69XUuwkpGjtzEwGKeom8BKmNl1IiIXVay8nhZh6_g4g?e=Zrydgk" className="w-full lg:w-auto">
+              <a href="https://mikroskilacid-my.sharepoint.com/:b:/g/personal/221113344_students_mikroskil_ac_id/EWIPv-MU9vZNilJRj5hjpfcBfFpBSIFneYfUB2T8Pk_Tcg?e=fce3RY" className="w-full lg:w-auto">
               <button 
                 data-aos="fade-up"
                 data-aos-duration="800"
