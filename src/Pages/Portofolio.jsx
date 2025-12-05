@@ -179,6 +179,18 @@ const certificatesData = [
     id: 18,
     Img: hw,
   },
+  {
+    id: 19,
+    Img: SML,
+  },
+  {
+    id: 20,
+    Img: MLT,
+  },
+  {
+    id: 21,
+    Img: [Bangkit 2024 Batch 2] Certificate - M172B4KY1485,
+  },
   
 ];
 
