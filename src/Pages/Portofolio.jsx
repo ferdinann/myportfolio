@@ -38,6 +38,9 @@ import dse from "../assets/dse.png";
 import hw from "../assets/hw.png";
 import msib from "../assets/msib.png";
 import rha from "../assets/rha.png";
+import csml from "../assets/csml.png";
+import cmlt from "../assets/cmlt.png";
+import bkml from "../assets/bkml.png";
 
 
 const projectsData = [
@@ -181,15 +184,15 @@ const certificatesData = [
   },
   {
     id: 19,
-    Img: SML,
+    Img: csml,
   },
   {
     id: 20,
-    Img: MLT,
+    Img: cmlt,
   },
   {
     id: 21,
-    Img: [Bangkit 2024 Batch 2] Certificate - M172B4KY1485,
+    Img: bkml,
   },
   
 ];
