@@ -51,7 +51,7 @@ const ProfileImage = memo(() => (
           
           <img
             src="/Photo1.jpeg"
-            style={{ filter: "grayscale(10%)", objectFit: "fill" }}
+            style={{ filter: "grayscale(10%)", objectFit: "cover" }}
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
             loading="lazy"
